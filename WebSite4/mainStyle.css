@@ -1,0 +1,145 @@
+﻿/*define generic page parameters such as width, height, fonts & sizes etc*/
+body
+{  
+    background:url("pics/DarkWood_Faces.png") center top fixed;
+    height: 5500px;
+    background-size: 100%;
+    margin:0 auto;
+    width: 100%;
+    position: relative;
+}
+
+/*classes*/
+.divider{
+    height:500px;
+    margin:0 auto;
+    //background: #185675;
+    text-align:center;
+    line-height:500px;
+}
+.content{
+    text-align:center;
+    /*background-color:yellow;*/
+    padding: 50px 0;
+    background: url(pics/WhiteBackground2.png);
+}
+.aBar {
+    text-align: center;
+    color: white;
+    background: url("pics/aSliver.png") repeat-x;
+    height: 75px;
+    line-height: 75px;
+    width: 100%;
+}
+.bBar {
+    background: url("pics/bBarSliver.png") repeat-x;
+    height: 27px;
+    width: 100%;
+}
+.contentPic{
+    width: 75%;
+    z-index: 0;
+}
+.dividerPic{
+    position:center;
+    margin:50px;
+}
+.qText{
+font-size:60px;
+color:white;
+font-family:Impact;
+}
+.aText{
+font-size:36px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cText{
+font-size: 20px;
+font-family:'Times New Roman'
+}
+.navLink{
+    font-size:45px;
+    margin:30px;
+    font-family: Impact;
+    color:white;
+    text-decoration:none;
+}
+
+
+/*IDs*/
+#navBar {
+    text-align: center;
+    font-family: 'junction';
+    color: white;
+    background:url("pics/navSliver.png") repeat-x;
+    height:84px;
+    line-height:84px;
+    width: 100%;
+    position:sticky; /*bueno?*/
+    top:0%;
+}
+#divider_1{
+    padding-top:80px;
+    background:none;
+    /*background-color:green;*/
+    height:450px;
+}
+#contentPic1{
+    z-index: 0;
+    width: 100%;
+}
+#content_1{
+    background: none;
+}
+
+#divider_2{
+     
+}
+#aBar_2{
+
+}
+#content_2{
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#bBar_2{
+
+}
+
+#divider_3{
+
+}
+#aBar_3{
+
+}
+#content_3{
+    background: url(pics/WhiteBackground.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#bBar_3{
+
+}
+
+#divider_4{
+
+}
+#aBar_4{
+
+}
+#content_4{
+
+}
+
+#divider_5{
+
+}
+#aBar_5{
+
+}
+#content_5{
+
+}
+#divider_6{
+
+}
