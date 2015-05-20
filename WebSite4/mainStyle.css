@@ -1,7 +1,8 @@
 ﻿/*define generic page parameters such as width, height, fonts & sizes etc*/
 body
 {  
-    background:url("pics/DarkWood_Faces.png") center top fixed;
+    min-width:960px;
+    background:url("pics/DarkWood_Faces_v3.png") center top fixed;
     height: 5500px;
     background-size: 100%;
     margin:0 auto;
@@ -18,10 +19,12 @@ body
     line-height:500px;
 }
 .content{
+    min-width:960px;
     text-align:center;
     /*background-color:yellow;*/
+    height:1037px;
     padding: 50px 0;
-    background: url(pics/WhiteBackground2.png);
+    background: url(pics/WhiteBackground_sliver.png);
 }
 .aBar {
     text-align: center;
@@ -37,6 +40,8 @@ body
     width: 100%;
 }
 .contentPic{
+    
+    //min-width:720px;
     width: 75%;
     z-index: 0;
 }
@@ -113,9 +118,9 @@ font-family:'Times New Roman'
 
 }
 #content_3{
-    background: url(pics/WhiteBackground.png);
-    background-repeat: no-repeat;
-    background-size:cover;
+    background: url(pics/WhiteBackground_sliver.png);
+    background-repeat: repeat-x;
+    //background-size:auto 100%;
 }
 #bBar_3{
 
