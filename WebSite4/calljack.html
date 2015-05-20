@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="mainStyle.css" />
+    <title>EMJ Request</title>
+</head>
+<body>
+    <div id="navBar">
+        <nav>
+            <a class="navLink" href="http://www.everymanjack.net/home#divider_2">About</a>
+            <a class="navLink" href="http://www.everymanjack.net/calljack">Get It Done</a>
+            <a class="navLink" href="http://www.everymanjack.net/home#divider_4">Download</a>
+            <a class="navLink" href="http://www.everymanjack.net/home#divider_5">Help</a>
+        </nav>
+    </div>
+    <div class="divider" id="divider_1">
+        <img class="dividerPic" src="pics/Logo.png" />
+    </div>
+    <div class="aBar" id="aBarCJ">
+        <span class="aText">What can Jack do for you?</span>
+    </div>
+    <div class="content" id="contentCJ">
+        <form method="post" action="http://www.everymanjack.net/calljack">
+            <input type="text" name="name" placeholder="Name" /><br />
+            <input type="text" name="trade" placeholder="Trade" /><br />
+            <input type="text" name="number" placeholder="Phone Number" /><br />
+            <input type="text" name="address" placeholder="Address" size="134" /><br />
+            <!--<input type="textarea" name="request" placeholder="Whatchya want!?" style="width:300px; height:40px" /><br />-->
+            <textarea rows="10" cols="100" name="request" placeholder="Request"></textarea><br />
+            <input type="submit" value="Call Jack" /><br />
+        </form>
+    </div>
+    <div class="bBar"></div>
+
+</body>
+</html>

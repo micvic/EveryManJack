@@ -22,9 +22,11 @@ body
     min-width:960px;
     text-align:center;
     /*background-color:yellow;*/
-    height:1037px;
+    /*height:1037px;*/
     padding: 50px 0;
-    background: url(pics/WhiteBackground_sliver.png);
+    background: url(pics/WhiteBackground.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .aBar {
     text-align: center;
@@ -39,15 +41,13 @@ body
     height: 27px;
     width: 100%;
 }
-.contentPic{
-    
+.contentPic{ 
     //min-width:720px;
     width: 75%;
     z-index: 0;
 }
 .dividerPic{
     position:center;
-    margin:50px;
 }
 .qText{
 font-size:60px;
@@ -56,12 +56,11 @@ font-family:Impact;
 }
 .aText{
 font-size:36px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+font-family: impact;}
 .cText{
-font-size: 20px;
-font-family:'Times New Roman'
-}
+
+font-size: 24px;
+font-family: 'PT Sans Narrow', sans-serif;}
 .navLink{
     font-size:45px;
     margin:30px;
@@ -70,11 +69,9 @@ font-family:'Times New Roman'
     text-decoration:none;
 }
 
-
-/*IDs*/
+/*Pitchpage IDs*/
 #navBar {
     text-align: center;
-    font-family: 'junction';
     color: white;
     background:url("pics/navSliver.png") repeat-x;
     height:84px;
@@ -104,8 +101,7 @@ font-family:'Times New Roman'
 
 }
 #content_2{
-    background-repeat: no-repeat;
-    background-size:cover;
+    
 }
 #bBar_2{
 
@@ -118,8 +114,8 @@ font-family:'Times New Roman'
 
 }
 #content_3{
-    background: url(pics/WhiteBackground_sliver.png);
-    background-repeat: repeat-x;
+    /*background: url(pics/WhiteBackground_sliver.png);
+    background-repeat: repeat-x;*/
     //background-size:auto 100%;
 }
 #bBar_3{
@@ -146,5 +142,13 @@ font-family:'Times New Roman'
 
 }
 #divider_6{
+
+}
+
+/*CallJack IDs*/
+#aBarCJ{
+
+}
+#contentCJ{
 
 }
