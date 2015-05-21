@@ -1,0 +1,70 @@
+﻿/*Pitchpage IDs*/
+#body{
+    height: 5500px;
+}
+
+
+#divider_1{
+    padding-top:80px;
+    background:none;
+    /*background-color:green;*/
+    height:450px;
+}
+#contentPic1{
+    z-index: 0;
+    width: 100%;
+}
+#content_1{
+    background: none;
+}
+
+#divider_2{
+     
+}
+#aBar_2{
+
+}
+#content_2{
+    
+}
+#bBar_2{
+
+}
+
+#divider_3{
+
+}
+#aBar_3{
+
+}
+#content_3{
+    /*background: url(pics/WhiteBackground_sliver.png);
+    background-repeat: repeat-x;*/
+    //background-size:auto 100%;
+}
+#bBar_3{
+
+}
+
+#divider_4{
+
+}
+#aBar_4{
+
+}
+#content_4{
+
+}
+
+#divider_5{
+
+}
+#aBar_5{
+
+}
+#content_5{
+
+}
+#divider_6{
+
+}

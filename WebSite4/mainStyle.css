@@ -3,13 +3,21 @@ body
 {  
     min-width:960px;
     background:url("pics/DarkWood_Faces_v3.png") center top fixed;
-    height: 5500px;
     background-size: 100%;
     margin:0 auto;
     width: 100%;
     position: relative;
 }
-
+#navBar {
+    text-align: center;
+    color: white;
+    background:url("pics/navSliver.png") repeat-x;
+    height:84px;
+    line-height:84px;
+    width: 100%;
+    position:sticky; /*bueno?*/
+    top:0%;
+}
 /*classes*/
 .divider{
     height:500px;
@@ -67,82 +75,6 @@ font-family: 'PT Sans Narrow', sans-serif;}
     font-family: Impact;
     color:white;
     text-decoration:none;
-}
-
-/*Pitchpage IDs*/
-#navBar {
-    text-align: center;
-    color: white;
-    background:url("pics/navSliver.png") repeat-x;
-    height:84px;
-    line-height:84px;
-    width: 100%;
-    position:sticky; /*bueno?*/
-    top:0%;
-}
-#divider_1{
-    padding-top:80px;
-    background:none;
-    /*background-color:green;*/
-    height:450px;
-}
-#contentPic1{
-    z-index: 0;
-    width: 100%;
-}
-#content_1{
-    background: none;
-}
-
-#divider_2{
-     
-}
-#aBar_2{
-
-}
-#content_2{
-    
-}
-#bBar_2{
-
-}
-
-#divider_3{
-
-}
-#aBar_3{
-
-}
-#content_3{
-    /*background: url(pics/WhiteBackground_sliver.png);
-    background-repeat: repeat-x;*/
-    //background-size:auto 100%;
-}
-#bBar_3{
-
-}
-
-#divider_4{
-
-}
-#aBar_4{
-
-}
-#content_4{
-
-}
-
-#divider_5{
-
-}
-#aBar_5{
-
-}
-#content_5{
-
-}
-#divider_6{
-
 }
 
 /*CallJack IDs*/
