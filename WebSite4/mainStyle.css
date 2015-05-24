@@ -2,7 +2,7 @@
 body
 {  
     min-width:960px;
-    background:url("pics/DarkWood_Faces_v3.png") center top fixed;
+    background:url("pics/DarkWood_Faces_logov2.png") center top fixed;
     background-size: 100%;
     margin:0 auto;
     width: 100%;
@@ -15,7 +15,7 @@ body
     height:84px;
     line-height:84px;
     width: 100%;
-    position:sticky; /*bueno?*/
+    position:fixed; /*bueno?*/
     top:0%;
 }
 /*classes*/
@@ -32,7 +32,7 @@ body
     /*background-color:yellow;*/
     /*height:1037px;*/
     padding: 50px 0;
-    background: url(pics/WhiteBackground.png);
+    background: url(pics/WhiteBackground_min.png);
     background-repeat: no-repeat;
     background-size:cover;
 }
